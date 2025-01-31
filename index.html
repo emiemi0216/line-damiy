@@ -10,10 +10,15 @@
 　　</head>
    <body>
      <script>
-        var window_w=window.innerWidth;
-        var window_h=window.innerHeight;
-        console.log(window_w);
+        window.addEventListener('load', (event) => {
+
+      // ブラウザのウインドウサイズを取得する
+      var window_w = window.innerWidth;
+      var window_h = window.innerHeight;
+
+      console.log(window_w);
       console.log(window_h);
+    });
    </script>
 </body>
 　</html>
